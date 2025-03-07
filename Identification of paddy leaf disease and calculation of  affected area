@@ -1,6 +1,7 @@
 import cv2 
 import numpy as np 
 from google.colab.patches import cv2_imshow 
+
 # Load the leaf image 
 image = cv2.imread('/content/drive/MyDrive/DSC_0372.JPG') 
 # Convert the image to HSV color space 
